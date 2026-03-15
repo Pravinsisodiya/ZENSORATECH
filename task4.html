@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>User API Project</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#000000,#0a1f44);
+    color:white;
+    padding:20px;
+}
+
+h1{
+    text-align:center;
+}
+
+#userContainer{
+    display:flex;
+    flex-wrap:wrap;
+    gap:25px;
+    justify-content:center;
+}
+
+.card{
+    background:#111;
+    padding:18px;
+    width:220px;
+    border-radius:10px;
+    border:1px solid #1e3a8a;
+
+    transition: all 0.35s ease;
+    will-change: transform;
+}
+
+.card:hover{
+    transform: translateY(-10px) scale(1.03);
+    box-shadow:0 12px 30px rgba(0,0,0,0.8);
+    border-color:#3b82f6;
+}
+
+.card h3{
+    color:#60a5fa;
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#d1d5db;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>User Information</h1>
+
+<div id="userContainer"></div>
+
+<script src="scrit.js"></script>
+
+</body>
+</html>
